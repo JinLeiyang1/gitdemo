@@ -13,3 +13,6 @@ for i in range(0,N):
     elif a<50:
         b=a
     e=e+b
+if 1000>e>=500:
+    s=e*0.9
+elif e>=1000:
