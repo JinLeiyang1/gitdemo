@@ -19,3 +19,9 @@ elif e>=1000:
 	s=e*0.8
 elif e<500:
     s=e
+s=int(s)
+print(s)
+if s<=budget:
+    print('enough!')
+elif s>budget:
+    print('chitu!')
