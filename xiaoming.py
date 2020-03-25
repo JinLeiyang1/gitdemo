@@ -4,3 +4,7 @@ N=int(input())
 e=0
 for i in range(0,N):
     a=float(input())
+    if 100>a>=50:
+        b=a-5
+    elif 100<=a<200:
+        b=a-15
