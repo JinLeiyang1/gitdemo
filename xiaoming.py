@@ -16,3 +16,6 @@ for i in range(0,N):
 if 1000>e>=500:
     s=e*0.9
 elif e>=1000:
+	s=e*0.8
+elif e<500:
+    s=e
